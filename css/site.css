@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    font-family:'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom 2rem;
+    font-weight: 300;
+}
+
+ /*anchor or link color*/
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.red
+    {
+    color: #871719;
+}
+
+ /*wrap sets how large your website is, margin auto centers it*/
+
+.wrap {
+    padding: 2rem; 
+    width: 100%;
+    max-width: 1000px;
+    margin: 0, auto;
+} 
+
+.header {
+  background-color: #333;
+  background-image: url('../img/hero-bg-pizza.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: #FFF;
+  text-align: center;
+}
+
+nav {
+    font-family: 'Roboto Slab', serif;
+    font: bold, uppercase, center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+   display: block;
+}
+
+nav a {
+  padding: .5rem;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #871719;
+}
+
+.hero-button {
+  font-size: 1.4rem;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid #ffffff;
+  padding: 6px 12px;
+}
+
+.hero-button:hover {
+  border-color: #871719;
+  background-color: #871719;
+}
+
+/****** Newsletter ******/
+
+.nwsltr-label {
+    display: block;
+    margin: 0 0 16px 0;
+}
+
+.nwsltr-input {
+    display: block;
+    width: 100%;
+    border: 1px solid #c0af8e;
+    border-radius: 3px;
+    height: 40px;
+    padding: 8px;
+    margin: 0 0 10px 0;
+    font-size: 1rem;
+}
+
+.nwsltr-btn {
+    display: block;
+    width: 100%;
+    background-color: #871719;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 40px;
+}
+
+.nwsltr-btn:hover {
+  background-color: #800080;
+}
+
+.nwsltr {
+  background-color: #E8D5B5;
+}
+
+.small-txt {
+  font-size: .8rem;
+}
